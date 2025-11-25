@@ -1,0 +1,33 @@
+{
+  "feature_cols": [
+    "pH_parsed",
+    "Temperature_parsed",
+    "ec1",
+    "ec2",
+    "ec3",
+    "ec4",
+    "mol_wt",
+    "h_acceptors",
+    "h_donors",
+    "rot_bonds",
+    "tpsa",
+    "ring_count",
+    "frac_csp3",
+    "EC_number",
+    "Organism_name",
+    "UniProt_ID"
+  ],
+  "categorical_feature_names": [
+    "EC_number",
+    "Organism_name",
+    "UniProt_ID"
+  ],
+  "metrics": {
+    "train_r2": 0.7789587235600016,
+    "test_r2": 0.5033464533715786,
+    "train_rmse": 0.6304779664337311,
+    "test_rmse": 0.9516469841565052,
+    "cv_r2_mean": 0.4816595280970869,
+    "cv_r2_std": 0.026129974204243255
+  }
+}
